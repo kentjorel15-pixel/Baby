@@ -1,17 +1,16 @@
-function firstMessage() {
-    document.getElementById("message").style.display = "none";
+function showLablab() {
+    document.getElementById("lablab").style.display = "block";
+}
+
+function showAngry() {
     document.getElementById("also").style.display = "none";
     document.getElementById("mad").style.display = "none";
 
-    document.getElementById("message").innerHTML =
-        "That's why I didn't kiss you hmp... Veryyy madd !!! 😤💗";
-    
-     <button onclick="secondMessage()">Click Me Again 🌷</button>
+    document.getElementById("angry").style.display = "block";
 }
 
-function secondMessage() {
-    document.getElementById("message").innerHTML =
-        "So, don't match my energy and lambing me 😤🌸💕";
-    document.getElementById("message").innerHTML =
-        "I love youuuu <3 😤🌸💕";
+function showLove() {
+    document.getElementById("angry").style.display = "none";
+
+    document.getElementById("love").style.display = "block";
 }
