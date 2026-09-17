@@ -12,4 +12,6 @@ function firstMessage() {
 function secondMessage() {
     document.getElementById("message").innerHTML =
         "So, don't match my energy and lambing me 😤🌸💕";
+    document.getElementById("message").innerHTML =
+        "I love youuuu <3 😤🌸💕";
 }
