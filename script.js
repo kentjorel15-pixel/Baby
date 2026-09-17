@@ -5,6 +5,8 @@ function firstMessage() {
 
     document.getElementById("message").innerHTML =
         "That's why I didn't kiss you hmp... Veryyy madd !!! 😤💗";
+    
+     <button onclick="secondMessage()">Click Me Again 🌷</button>
 }
 
 function secondMessage() {
