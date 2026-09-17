@@ -1,4 +1,5 @@
 function firstMessage() {
+    document.getElementById("message").style.display = "none";
     document.getElementById("also").style.display = "none";
     document.getElementById("mad").style.display = "none";
 
