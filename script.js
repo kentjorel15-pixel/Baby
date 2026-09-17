@@ -1,9 +1,10 @@
 function firstMessage() {
-    document.getElementById("message").innerHTML =
-        "That's why I didn't kiss you hmp... Veryyy madd !!! 😤💗";
+    alert("That's why I didn't kiss you hmp... Veryyy madd !!! 😤💗");
+
+    document.getElementById("also").style.display = "none";
+    document.getElementById("mad").style.display = "none";
 }
 
 function secondMessage() {
-    document.getElementById("message").innerHTML =
-        "So, don't match my energy and lambing me 😤🌸💕";
+    alert("So, don't match my energy and lambing me 😤🌸💕");
 }
